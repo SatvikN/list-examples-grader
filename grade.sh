@@ -34,4 +34,4 @@ fi
 
 echo "Program compiled successfully"
 
-$CPATH org.junit.runner.JUnitCore TestListExamples
+java -cp $CPATH org.junit.runner.JUnitCore TestListExamples
